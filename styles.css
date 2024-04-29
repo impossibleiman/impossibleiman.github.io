@@ -1,14 +1,21 @@
 .top-section {
     background-color: #f2f2f2;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
   
-  .button-group {
+.left-buttons {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
+    justify-content: flex-start;
+}
+
+.right-button {
+    text-align: right;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
   
   button {
     background-color: #4CAF50;
